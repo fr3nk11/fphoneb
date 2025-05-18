@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="guesthome.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <title>F-Phone📱</title>
+</head>
+<body>
+
+  <!------------------------------------------------------------------------------------->
+
+  <header class="navbar">
+    <div class="business-info">
+      <img src="/img/logo1.jpg" alt="Business Logo" class="logo">
+      <h1 class="business-name">F-Phone</h1>
+    </div>
+    
+  </header>
+
+  <!------------------------------------------------------------------------------------->
+
+  <!-- Seksioni i videos dhe imazhit (me slider) -->
+  <section class="media-container">
+    <video class="media video" id="video1" autoplay muted loop>
+      <source src="/mp4/iphone16Pro.mp4" type="video/mp4">
+      Shfletuesi juaj nuk e mbështet videon.
+    </video>
+    
+    <div class="slider-container">
+      <button class="slider-btn left" onclick="prevImage()">&#10094;</button>
+      <img id="slider-image" src="/img/goglepixel9.jpg" alt="Product Image" class="media image">
+      <button class="slider-btn right" onclick="nextImage()">&#10095;</button>
+    </div>
+  </section>
+
+  <!------------------------------------------------------------------------------------->
+
+  <!-- Seksioni me dy video dhe një foto -->
+  <section class="extra-media-container">
+    <video class="extra-media" id="video2" autoplay muted loop>
+      <source src="/mp4/iphone16.mp4" type="video/mp4">
+      Shfletuesi juaj nuk e mbështet videon.
+    </video>
+    <video class="extra-media" id="video3" autoplay muted loop>
+      <source src="/mp4/macbookpro.mp4" type="video/mp4">
+      Shfletuesi juaj nuk e mbështet videon.
+    </video>
+    <img class="extra-media" src="/img/samsung25Ulta.jpg" alt="Product Image">
+  </section>
+
+  <!------------------------------------------------------------------------------------->
+
+  <!-- Seksioni i produkteve të fundit -->
+  <section class="product-section">
+    <h2 class="section-title">Produktet e Fundit</h2>
+    <!-- Rreshti i parë i produkteve -->
+    <div class="product-container">
+      <div class="product" onclick="window.location.href='./faqjaiphone16promax/produkti.html';">
+        <img src="/produktet/iphone16promax1.jpg" alt="iPhone 16 Pro Max">
+        <p>iPhone 16 Pro Max</p>
+      </div>
+      <div class="product" onclick="window.location.href='#';">
+        <img src="/produktet/samsung25ultra1.jpg" alt="Samsung Galaxy S25 Ultra">
+        <p>Samsung Galaxy S25 Ultra</p>
+      </div>
+      <div class="product" onclick="window.location.href='#';">
+        <img src="/produktet/iphone15promax1.jpg" alt="iPhone 15 Pro Max">
+        <p>iPhone 15 Pro Max</p>
+      </div>
+      <div class="product" onclick="window.location.href='#';">
+        <img src="/produktet/goglepixel9proxl1.jpg" alt="Google Pixel 9 Pro XL">
+        <p>Google Pixel 9 Pro XL</p>
+      </div>
+      <div class="product" onclick="window.location.href='#';">
+        <img src="/produktet/iphone15pro1.jpg" alt="iPhone 15 Pro">
+        <p>iPhone 15 Pro</p>
+      </div>
+      <div class="product" onclick="window.location.href='#';">
+        <img src="/produktet/samsung24ultra1.jpg" alt="Samsung Galaxy S24">
+        <p>Samsung Galaxy S24</p>
+      </div>
+    </div>
+
+    <!-- Rreshti i dytë i produkteve -->
+    <div class="product-container">
+      <div class="product" onclick="window.location.href='#';">
+        <img src="/produktet/airpodspro21.jpg" alt="AirPods Pro 2">
+        <p>AirPods Pro 2</p>
+      </div>
+      <div class="product" onclick="window.location.href='#';">
+        <img src="/produktet/applewatch101.jpg" alt="Apple Watch Series 10">
+        <p>Apple Watch Series 10</p>
+      </div>
+      <div class="product" onclick="window.location.href='#';">
+        <img src="/produktet/ipadprom41.jpg" alt="iPad Pro M4">
+        <p>iPad Pro M4</p>
+      </div>
+      <div class="product" onclick="window.location.href='#';">
+        <img src="/produktet/samsungtabs101.jpg" alt="Samsung Galaxy Tab s10">
+        <p>Samsung Galaxy Tab s10</p>
+      </div>
+      <div class="product" onclick="window.location.href='#';">
+        <img src="/produktet/samsungwatch71.jpg" alt="Samsung Galaxy Watch 7">
+        <p>Samsung Galaxy Watch 7</p>
+      </div>
+      <div class="product" onclick="window.location.href='#';">
+        <img src="/produktet/macbookairm3.jpg" alt="MacBook Air M3">
+        <p>MacBook Air M3</p>
+      </div>
+    </div>
+  </section>
+
+  <!------------------------------------------------------------------------------------->
+
+  <!-- Seksioni i produkteve të telefonave Apple -->
+  <section class="product-section" style="margin-top: 40px;">
+    <h2 class="section-title">Telefona Apple</h2>
+    <!-- Rreshti i parë i produkteve -->
+    <div class="product-container">
+      <div class="product" onclick="window.location.href='#';">
+        <img src="/produktet/iphone16promax1.jpg" alt="iPhone 16 Pro Max">
+        <p>iPhone 16 Pro Max</p>
+      </div>
+      <div class="product" onclick="window.location.href='#';">
+        <img src="/produktet/iphone16pro1.jpg" alt="iPhone 16 Pro">
+        <p>iPhone 16 Pro</p>
+      </div>
+      <div class="product" onclick="window.location.href='#';">
+        <img src="/produktet/iphone16plus1.jpg" alt="iPhone 16 plus">
+        <p>iPhone 15 Plus</p>
+      </div>
+      <div class="product" onclick="window.location.href='#';">
+        <img src="/produktet/iphone161.jpg" alt="iPhone 16 ">
+        <p>iPhone 16</p>
+      </div>
+      <div class="product" onclick="window.location.href='#';">
+        <img src="/produktet/iphone15promax1.jpg" alt="iPhone 15 Pro max">
+        <p>iPhone 15 Pro Max</p>
+      </div>
+      <div class="product" onclick="window.location.href='#';">
+        <img src="/produktet/iphone15pro1.jpg" alt="iPhone 15 Pro">
+        <p>iPhone 15 Pro </p>
+      </div>
+    </div>
+
+    <!-- Rreshti i dytë i produkteve -->
+    <div class="product-container">
+      <div class="product" onclick="window.location.href='#';">
+        <img src="/produktet/iphone15plus1.jpg" alt="iPhone 15 Plus">
+        <p>iPhone 15 Plus</p>
+      </div>
+      <div class="product" onclick="window.location.href='#';">
+        <img src="/produktet/iphone151.jpg" alt="iPhone 15  ">
+        <p>iPhone 15 </p>
+      </div>
+      <div class="product" onclick="window.location.href='#';">
+        <img src="/produktet/iphone13promax1.jpg" alt="iPhone 13 Pro Max">
+        <p>iPhone 13 Pro Max</p>
+      </div>
+      <div class="product" onclick="window.location.href='#';">
+        <img src="/produktet/iphone13pro.jpg" alt="iPhone 13 Pro">
+        <p>iPhone 13 Pro </p>
+      </div>
+      <div class="product" onclick="window.location.href='#';">
+        <img src="/produktet/iphone13.jpg" alt="iPhone 13">
+        <p>iPhone 13 </p>
+      </div>
+      <div class="product" onclick="window.location.href='#';">
+        <img src="/produktet/iphone12promax1.jpg" alt="iPhone 12 Pro Max">
+        <p>iPhone 12 Pro Max</p>
+      </div>
+    </div>
+  </section>
+
+  <!------------------------------------------------------------------------------------->
+
+  <!-- Seksioni i produkteve të telefonave Samsung -->
+  <section class="product-section" style="margin-top: 40px;">
+    <h2 class="section-title">Telefona Samsung</h2>
+    <!-- Rreshti i parë i produkteve -->
+    <div class="product-container">
+      <div class="product" onclick="window.location.href='#';">
+        <img src="/produktet/samsung25ultra1.jpg" alt="samsung S25 Ultra">
+        <p>samsung S25 Ultra</p>
+      </div>
+      <div class="product" onclick="window.location.href='#';">
+        <img src="/produktet/samsungs251.jpg" alt="samsung S25">
+        <p>samsung S25 </p>
+      </div>
+      <div class="product" onclick="window.location.href='#';">
+        <img src="/produktet/samsung24ultra1.jpg" alt="samsung S24 Ultra">
+        <p>samsung S24 Ultra</p>
+      </div>
+      <div class="product" onclick="window.location.href='#';">
+        <img src="/produktet/samsungs24.jpg" alt="samsung S24">
+        <p>samsung S24</p>
+      </div>
+      <div class="product" onclick="window.location.href='#';">
+        <img src="/produktet/samsung23ultra1.jpg" alt="samsung S23 Ultra">
+        <p>samsung S23 Ultra</p>
+      </div>
+      <div class="product" onclick="window.location.href='#';">
+        <img src="/produktet/samsung231.jppg" alt="samsung S23">
+        <p>samsung S23</p>
+      </div>
+    </div>
+
+    <!-- Rreshti i dytë i produkteve -->
+    <div class="product-container">
+      <div class="product" onclick="window.location.href='#';">
+        <img src="/produktet/samsungs22ultra1.jpg" alt="samsung S22 Ultra">
+        <p>samsung S22 Ultra</p>
+      </div>
+      <div class="product" onclick="window.location.href='#';">
+        <img src="/produktet/samsungs221.jpg" alt="samsung S22 ">
+        <p>samsung S22 </p>
+      </div>
+      <div class="product" onclick="window.location.href='#';">
+        <img src="/produktet/samsung21ultra.jpg" alt="samsung S21 Ultra">
+        <p>samsung S21 Ultra</p>
+      </div>
+      <div class="product" onclick="window.location.href='#';">
+        <img src="/produktet/samsung21.jpg" alt="samsung S21">
+        <p>samsung S21</p>
+      </div>
+      <div class="product" onclick="window.location.href='#';">
+        <img src="/produktet/samsungs20ultra.jpg" alt="samsung S20 Ultra">
+        <p>samsung S20 Ultra</p>
+      </div>
+      <div class="product" onclick="window.location.href='#';">
+        <img src="/produktet/samsung20.jpg" alt="samsung S20">
+        <p>samsung S20</p>
+      </div>
+    </div>
+  </section>
+
+  <!------------------------------------------------------------------------------------->
+
+  <!-- Seksioni i produkteve të laptopëve Apple -->
+  <section class="product-section" style="margin-top: 40px;">
+    <h2 class="section-title">Laptopë Apple</h2>
+    <!-- Rreshti i parë i produkteve -->
+    <div class="product-container" style="margin-top: 50px;">
+      <div class="product" onclick="window.location.href='#';">
+        <img src="/produktet/macbookpro162024.jpg" alt="MacBook Pro 16 2024">
+        <p>MacBook Pro 16 2024</p>
+      </div>
+      <div class="product" onclick="window.location.href='#';">
+        <img src="/produktet/macbookpro162023.jpg" alt="MacBook Pro 16 2023">
+        <p>MacBook Pro 16 2023</p>
+      </div>
+      <div class="product" onclick="window.location.href='#';">
+        <img src="/produktet/macbookpro142023.jpg" alt="MacBook Pro 14 2023">
+        <p>MacBook Pro 14 2023</p>
+      </div>
+      <div class="product" onclick="window.location.href='#';">
+        <img src="/produktet/macbookpro132022.jpg" alt="MacBook Pro 13 2022">
+        <p>MacBook Pro 14 2022</p>
+      </div>
+      <div class="product" onclick="window.location.href='#';">
+        <img src="/produktet/macbookpro162021.jpg" alt="MacBook Pro 16 2021">
+        <p>MacBook Pro 16 2021</p>
+      </div>
+      <div class="product" onclick="window.location.href='#';">
+        <img src="/produktet/macbook152024.jpg" alt="MacBook Air 15 2024">
+        <p>MacBook Air 15 2024</p>
+      </div>
+    </div>
+
+    <!-- Rreshti i dytë i produkteve -->
+    <div class="product-container" style="margin-top: 50px;">
+      <div class="product" onclick="window.location.href='#';">
+        <img src="/produktet/macbook132024.jpg" alt="MacBook Air 13 2024">
+        <p>MacBook Air 13 2024</p>
+      </div>
+      <div class="product" onclick="window.location.href='#';">
+        <img src="/produktet/macbook152023.jpg" alt="MacBook Air 15 2023">
+        <p>MacBook Air 15 2023</p>
+      </div>
+      <div class="product" onclick="window.location.href='#';">
+        <img src="/produktet/macbook2022.jpg" alt="MacBook Air 2022">
+        <p>MacBook Air 2022</p>
+      </div>
+      <div class="product" onclick="window.location.href='#';">
+        <img src="/produktet/macbook2020.jpg" alt="MacBook Air 2020">
+        <p>MacBook Air 2020</p>
+      </div>
+      <div class="product" onclick="window.location.href='#';">
+        <img src="/produktet/macbook132019.jpg" alt="MacBook Air 2019">
+        <p>MacBook Air 2019</p>
+      </div>
+      <div class="product" onclick="window.location.href='#';">
+        <img src="/produktet/macbook132018.jpg" alt="MacBook Air 2018">
+        <p>MacBook Air 2018</p>
+      </div>
+    </div>
+  </section>
+
+  <!------------------------------------------------------------------------------------->
+
+  <!-- Seksioni i produkteve të Apple Watch -->
+  <section class="product-section" style="margin-top: 40px;">
+    <h2 class="section-title">Apple Watch</h2>
+    <!-- Rreshti i parë i produkteve -->
+    <div class="product-container">
+      <div class="product" onclick="window.location.href='#';">
+        <img src="/produktet/watchultra1.jpg" alt="Apple Watch Ultra">
+        <p>Apple Watch Ultra</p>
+      </div>
+      <div class="product" onclick="window.location.href='#';">
+        <img src="/produktet/watch10.jpg" alt="Apple Watch 10">
+        <p>Apple Watch 10</p>
+      </div>
+      <div class="product" onclick="window.location.href='#';">
+        <img src="/produktet/watch9.jpg" alt="Apple Watch 9">
+        <p>Apple Watch 9</p>
+      </div>
+      <div class="product" onclick="window.location.href='#';">
+        <img src="/produktet/watch8.jpg" alt="Apple Watch 8">
+        <p>Apple Watch 8</p>
+      </div>
+      <div class="product" onclick="window.location.href='#';">
+        <img src="/produktet/watchse2.jpg" alt="Apple Watch SE 2">
+        <p>Apple Watch SE 2</p>
+      </div>
+      <div class="product" onclick="window.location.href='#';">
+        <img src="/produktet/watchse.jpg" alt="Apple Watch SE">
+        <p>Apple Watch SE </p>
+      </div>
+    </div>
+  </section>
+
+  <!------------------------------------------------------------------------------------->
+
+  <!-- Seksioni i produkteve të Apple Airpods -->
+  <section class="product-section" style="margin-top: 40px;">
+    <h2 class="section-title">Apple Airpods</h2>
+    <!-- Rreshti i parë i produkteve -->
+    <div class="product-container">
+      <div class="product" onclick="window.location.href='#';">
+        <img src="/produktet/airpodspro2.jpg" alt="Airpods Pro 2">
+        <p>Airpods Pro 2</p>
+      </div>
+      <div class="product" onclick="window.location.href='#';">
+        <img src="/produktet/airpodspro.jpg" alt="Airpods Pro ">
+        <p>Airpods Pro </p>
+      </div>
+      <div class="product" onclick="window.location.href='#';">
+        <img src="/produktet/airpods4.jpg" alt="Airpods 4">
+        <p>Airpods 4</p>
+      </div>
+      <div class="product" onclick="window.location.href='#';">
+        <img src="/produktet/airpods3.jpg" alt="Airpods 3">
+        <p>Airpods 3</p>
+      </div>
+      <div class="product" onclick="window.location.href='#';">
+        <img src="/produktet/airpods2.jpg" alt="Airpods 1">
+        <p>Airpods 2</p>
+      </div>
+      <div class="product" onclick="window.location.href='#';">
+        <img src="/produktet/airpods1.jpg" alt="Airpods 1">
+        <p>Airpods 1</p>
+      </div>
+    </div>
+  </section>
+
+  <!------------------------------------------------------------------------------------->
+
+  <!-- Seksioni i produkteve të Apple Ipad -->
+  <section class="product-section" style="margin-top: 40px;margin-bottom: 40px;">
+    <h2 class="section-title">Apple Ipad</h2>
+    <!-- Rreshti i parë i produkteve -->
+    <div class="product-container">
+      <div class="product" onclick="window.location.href='#';">
+        <img src="/produktet/ipadpro6gen.jpg" alt="Ipad Pro 6th Gen">
+        <p>Ipad Pro 6th Gen</p>
+      </div>
+      <div class="product" onclick="window.location.href='#';">
+        <img src="/produktet/ipadair5.jpg" alt="Ipad Air 5">
+        <p>Ipad Air 5</p>
+      </div>
+      <div class="product" onclick="window.location.href='#';">
+        <img src="/produktet/ipadair4.jpg" alt="Ipad Air 4">
+        <p>Ipad Air 4</p>
+      </div>
+      <div class="product" onclick="window.location.href='#';">
+        <img src="/produktet/ipadmini6.jpg" alt="Ipad Mini 6">
+        <p>Ipad Mini 6</p>
+      </div>
+      <div class="product" onclick="window.location.href='#';">
+        <img src="/produktet/ipad10.jpg" alt="Ipad 10">
+        <p>Ipad 10</p>
+      </div>
+      <div class="product" onclick="window.location.href='#';">
+        <img src="/produktet/ipadprom41.jpg" alt="Ipad Pro M4">
+        <p>Ipad Pro M4</p>
+      </div>
+    </div>
+  </section>
+
+  <!------------------------------------------------------------------------------------->
+
+  <!-- Futeri -->
+  <footer class="footer">
+    <div class="footer-content">
+      <!-- Seksioni i majtë (Logo dhe Emri i Biznesit) -->
+      <div class="footer-section left-section">
+        <img src="/img/logo1.jpg" alt="F-Phone" class="footer-logo">
+        <h3>F-Phone MOBILE SHOP</h3>
+      </div>
+  
+      <!-- Seksioni i mesit (Teksti që dëshironi të zhvendosni) -->
+      <div class="footer-section middle-section">
+        <p>CALESI-GARANCI-CMIM</p>
+        <p>Kushtet e Perdorimit</p>
+        <p>Politika e Privatsia</p>
+      </div>
+  
+      <!-- Seksioni i djathtë (Kontakti) -->
+      <div class="footer-section right-section">
+        <h3>Kontakti</h3>
+        <p>Email: F-Phone.shop@gmail.com</p>
+        <p>Tel: 069 696 9699</p>
+      </div>
+    </div>
+  
+    <!-- Fundi i Footer-it -->
+    <div class="footer-bottom">
+      <p>&copy; 2025 F-Phone MOBILE SHOP. Të gjitha të drejtat e rezervuara.</p>
+    </div>
+  </footer>
+
+  <!------------------------------------------------------------------------------------->
+
+  <script src="guesthome.js"></script>
+</body>
+</html>
+
+

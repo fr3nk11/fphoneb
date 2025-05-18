@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F-Phone📱 | Profili Im</title>
+    <link rel="stylesheet" href="profile.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="business-info">
+            <img src="/img/logo1.jpg" alt="Business Logo" class="logo">
+            <h1 class="business-name">F-Phone</h1>
+        </div>
+        <div class="navbar-icons">
+            <i class="fas fa-user" data-tooltip="Profili"></i>
+            <i class="fas fa-shopping-cart" data-tooltip="Shporta"></i>
+        </div>
+    </header>
+
+    <!-- Container për përmbajtjen kryesore -->
+    <div class="container">
+        <!-- Profile form -->
+        <section class="profile-form animate-fade">
+            <h1>Profili Im</h1>
+            
+            <div class="profile-header">
+                <div class="profile-avatar">
+                    <img src="/api/placeholder/200/200" alt="Profile Avatar">
+                    <button class="change-avatar" data-tooltip="Ndrysho foton">
+                        <i class="fas fa-camera"></i>
+                    </button>
+                </div>
+                <div class="current-date"></div>
+            </div>
+            
+            <form id="profile-form">
+                <!-- Emri dhe Mbiemri -->
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Emri:</label>
+                        <input type="text" id="name" name="name" value="Frenki" class="editable">
+                    </div>
+                    <div class="form-group">
+                        <label for="surname">Mbiemri:</label>
+                        <input type="text" id="surname" name="surname" value="Janaqi" class="editable">
+                    </div>
+                </div>
+                
+                <!-- Datëlindja -->
+                <div class="form-group">
+                    <label for="birthdate">Datëlindja:</label>
+                    <input type="date" id="birthdate" name="birthdate" value="2006-10-20" class="editable">
+                </div>
+                
+                <!-- Email (i pamodifikueshëm) -->
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" value="frenkijanaqi@gmail.com" readonly>
+                </div>
+                
+                <!-- Password (me butonin Update) -->
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <div class="password-container">
+                        <input type="password" id="password" name="password" value="********" class="editable">
+                        <button type="button" class="toggle-password">
+                            <i class="fas fa-eye"></i>
+                        </button>
+                    </div>
+                    <button type="button" class="update-password">
+                        <i class="fas fa-key"></i> Ndrysho Password-in
+                    </button>
+                </div>
+                
+                <!-- Butonat Save dhe Sign Out -->
+                <div class="form-actions">
+                    <button type="submit" class="btn save-button">
+                        <i class="fas fa-save"></i> Ruaj
+                    </button>
+                    <button type="button" class="btn sign-out-button">
+                        <i class="fas fa-sign-out-alt"></i> Dil
+                    </button>
+                </div>
+            </form>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <!-- Seksioni i majtë (Logo dhe Emri i Biznesit) -->
+            <div class="footer-section left-section">
+                <img src="/img/logo1.jpg" alt="F-Phone" class="footer-logo">
+                <h3>F-Phone MOBILE SHOP</h3>
+            </div>
+            
+            <!-- Seksioni i mesit -->
+            <div class="footer-section middle-section">
+                <h3>Informacione</h3>
+                <p>CILËSI-GARANCI-ÇMIM</p>
+                <p>Kushtet e Përdorimit</p>
+                <p>Politika e Privatësisë</p>
+            </div>
+            
+            <!-- Seksioni i djathtë (Kontakti) -->
+            <div class="footer-section right-section">
+                <h3>Kontakti</h3>
+                <p><i class="fas fa-envelope"></i> F-Phone.shop@gmail.com</p>
+                <p><i class="fas fa-phone"></i> 069 696 9699</p>
+                <p><i class="fas fa-map-marker-alt"></i> Tiranë, Shqipëri</p>
+            </div>
+        </div>
+        
+        <!-- Fundi i Footer-it -->
+        <div class="footer-bottom">
+            <p>&copy; 2025 F-Phone MOBILE SHOP. Të gjitha të drejtat e rezervuara.</p>
+        </div>
+    </footer>
+
+    <!-- Loading Indicator -->
+    <div class="loading-indicator" id="loading">
+        <div class="spinner"></div>
+    </div>
+
+    <script src="profile.js"></script>
+</body>
+</html>
